@@ -1,0 +1,76 @@
+# ===============================================
+# Created by https://www.toptal.com/developers/gitignore/api/android,kotlin,gradle
+# Edit at https://www.toptal.com/developers/gitignore?templates=android,kotlin,gradle
+# ===============================================
+
+# Android build files
+# ===================
+*.apk
+*.aab
+*.jar
+*.aar
+*.ap_
+*.dex
+*.class
+*.swp
+*~
+*.iml
+*.ipr
+*.iws
+
+# Build folders
+build/
+.gradle/
+captures/
+.idea/
+
+# Local configuration files (sensitive data)
+local.properties
+.DS_Store
+
+# Log files
+*.log
+
+# Keystore files (NEVER commit these)
+*.keystore
+keystore.properties
+
+# Android Studio generated files
+# ===============================
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/gradle.xml
+
+# Google services file (if it contains sensitive data, though usually safe)
+# google-services.json
+
+# Generated files
+# ===============
+**/build/
+
+# Kotlin
+# ======
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Build directory
+build/
+
+# Gradle
+# ======
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# USER-DEFINED
+# =================
+# Add any other files you want to ignore here
